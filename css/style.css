@@ -534,6 +534,7 @@ header {
   align-items: flex-start;
   gap: 1rem;
   margin-top: 70px;
+  margin-bottom: 70px;
   height: 200px;
   border: 1px solid #f4f4f4;
   border-radius: 20px;
@@ -587,4 +588,73 @@ header {
 .info-11 figure figcaption {
   text-align: center;
   margin-top: 15px;
+}
+
+/* ======= 푸터 영역 =======  */
+footer {
+  margin-bottom: 150px;
+}
+.ft-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.ft-top ul li {
+  float: left;
+  padding: 15px 30px 15px 0;
+}
+.ft-top div p {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 15px 30px;
+  background: #f4f4f4;
+  border: 1px solid #555;
+}
+.ft-bottom {
+  margin-top: 15px;
+}
+.ft-bottom > div {
+  float: left;
+  width: 60%;
+}
+.ft-bottom p {
+  font-size: 12px;
+  line-height: 25px;
+}
+.ft-bottom > .ft-bottom-r {
+  float: right;
+  width: 30%;
+}
+.ft-bottom-r {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.ft-bottom-r ul li {
+  float: left;
+}
+.ft-bottom-r ul:first-child li {
+  padding: 10px;
+}
+.ft-bottom ul:last-child li {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+.ft-bottom ul:last-child li:nth-child(1) {
+  background: #fff url(../img/ico-naver-small.png) no-repeat center center;
+}
+.ft-bottom ul:last-child li:nth-child(2) {
+  background: #fff url(../img/ico-daum-small.png) no-repeat center center;
+}
+.ft-bottom ul:last-child li:nth-child(3) {
+  background: #fff url(../img/ico-facebook-small.png) no-repeat center center;
+}
+.ft-bottom ul:last-child li:nth-child(4) {
+  background: #fff url(../img/ico-kakao-small.png) no-repeat center center;
+}
+.ft-bottom ul:last-child li:nth-child(5) {
+  background: #fff url(../img/ico-insta-small.png) no-repeat center center;
 }
