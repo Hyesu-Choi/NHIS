@@ -74,6 +74,7 @@ header {
   display: inline-block;
   margin-right: 15px;
 }
+
 .user-set ul li {
   display: inline;
   position: relative;
@@ -83,9 +84,9 @@ header {
   content: "";
   position: absolute;
   right: 0;
-  width: 1.5px;
+  width: 1px;
   height: 15px;
-  background: #555;
+  background: #777;
 }
 .user-set ul li:last-child {
   padding-right: 0;
